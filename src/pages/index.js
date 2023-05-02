@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import LogosPic from "./BoxTech.svg";
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
@@ -10,7 +11,7 @@ export default function Home() {
         {/* code */}
         <nav className="bg-transparent from-slate-500 to-slate-700 border-gray-200 dark:bg-gradient-to-r dark:from-slate-500 dark:to-slate-700">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="./" class="flex items-center">
+            <a href="./" className="flex items-center">
               {/* <img src="./BoxTech.svg" class="h-8 mr-3" alt="Blueblock Logo" /> */}
               <Image
                 className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
