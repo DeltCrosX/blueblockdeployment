@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import LogosPic from "./BoxTech.svg";
-import icon from "../public/favicon.ico";
 import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
